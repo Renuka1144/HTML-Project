@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        fieldset{
+            margin: 10px auto;
+            align-items: center;
+            width: 100%;
+            background-color: gainsboro;
+            padding: 45px;
+          
+
+        }
+        legend{
+            color: red;
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+        .sec-1{
+            padding: 5px;
+         
+        }
+        .sec-1 .txtfname{
+            padding: 2.5px;
+
+        
+            
+        }
+        .sec-1 .fname{
+            padding: 5px 20px 0px 0px;
+            
+        }
+        .sec-2{
+            padding: 5px;
+            
+        }
+        .sec-2 .txtlname{
+            padding: 2.5px;
+        
+        }
+        .sec-2 .lname{
+           padding:5px 20px 0px 0px ;
+
+        }
+        .sec-3{
+            padding: 5px;
+        }
+        .sec-3 .txtename{
+            padding: 2.5px;
+        }
+        .sec-3 .ename{
+            padding: 5px 50px 0px 0px;
+        }
+        .sec-4{
+            padding: 5px;
+        }
+        .sec-4 .txtmname{
+            padding:2.5px ;
+        }
+        .sec-4 .mname{
+            padding: 5px 45px 0px 0px;
+        }
+        .sec-5{
+            padding: 5px;
+        }
+        .sec-5 .gname{
+            padding:5px 45px 0px 0px ;
+        }
+        .sec-6{
+            padding: 5px;
+        }
+        .sec-6 .txtdname{
+            padding: 10px;
+        }
+
+        .sec-6 .dname{
+            padding: 5px 8px 0px 0px;
+        }
+        .sec-7{
+            padding: 5px;
+        }
+        .sec-7 .txtaname{
+
+            padding: 2.5px;
+        }
+        
+        .sec-7 .aname{
+            padding: 5px 50px 0px 0px;
+
+        }
+        .sec-8 {
+            padding: 5px;
+        }
+        .sec-8 .txtcname{
+            padding: 2.5px;
+        }
+        .sec-8 .cname{
+            padding: 5px 65px 0px 0px;
+        }
+        .sec-9{
+            padding: 5px;
+        }
+        .sec-9 .txtpname{
+            padding: 2.5px;
+        }
+        .sec-9 .pname{
+            padding: 5px 40px 0px 0px;
+        }
+        .sec-10{
+            padding: 5px;
+        }
+        .sec-10  .txtsname{
+            padding: 3px;
+        }
+        .sec-10 .sname{
+            padding: 5px 65px 0px 0px;
+        }
+        .sec-11{
+            padding: 5px;
+        }
+        .sec-11 .txtqname{
+            padding: 2.5px;
+        }
+        .sec-11 .qname{
+            padding: 5px 12px 0px 0px;
+        }
+        .sec-12{
+            padding: 5px;
+        }
+        .sec-12{
+            display: flex;
+            gap: 20px;
+        }
+        .sec-13{
+            padding: 5px;
+        }
+        .sec-13 .txtps{
+            padding: 2.5px;
+        }
+        
+        .sec-13 .psname{
+            padding: 5px 35px 0px 0px;
+        }
+        button{
+            background: green;
+            width: 22%;
+            color: white;
+            padding: 2.5px;
+            font-size: 12px;
+            margin: 15px auto;
+        }    
+
+       
+        
+        
+       
+ 
+          
+
+        
+        
+            
+            
+
+
+    
+        
+            
+        
+            
+
+    </style>
+</head>
+<body>
+    <fieldset style="width: 500px"><legend>Student Registration Form</legend>
+    <form enctype="multipart/formdata" method="post" action="#"></form>
+    <div class="sec-1">
+        <label class="fname" for="First Name">First Name:</label>
+        <input class="txtfname" type="text" id="txtfname" placeholder="Enter Your First Name">
+    </div>
+    <div class="sec-2">
+        <label class="lname" for="Last Name">Last Name:</label>
+        <input class="txtlname" type="text" id="txtlname" placeholder="Enter Your Last Name">
+    </div>
+    <div class="sec-3">
+        <label class="ename" for="Email">Email:</label>
+        <input class="txtename" type="email" name="email" id="txtename" placeholder="Enter yuor contain @...">
+    </div>
+    <div class="sec-4"> 
+        <label class="mname" for="Mobile:">Mobile:</label>
+        <input class="txtmname" type="tel" name="tel" id="txtmname" placeholder="Enter your digit 10 only">
+    </div>
+    <div class="sec-5">
+        <label class="gname" for="Gender:">Gender:</label>
+    
+    
+        Male <input class="ml" type="radio" name="Male">
+        Female<input class="fl" type="radio" name="Female">
+    </div>
+    <div class="sec-6">
+        <label class="dname" for="Date Of Birth">Date Of Birth:</label>
+        <input class="txtdname" type="date" id="txtdname">
+    </div>
+    <div class="sec-7">
+        <label class="aname" for="Addres:">Addres:</label>
+        <input class="txtaname" type="text" name="textarea"  id="txtaname"> 
+        
+    </div>  
+    <div class="sec-8">
+        <label class="cname" for="City">City:</label>
+        <input class="txtcname" type="text"  id="txtcname"> 
+
+    </div>
+    <div class="sec-9">
+        <label class="pname" for="Area pin:">Area pin:</label>
+        <input class="txtpname" type="text" id="txtpname">
+
+    </div>
+    <div class="sec-10">
+        <label class="sname" for="State">State:</label>
+        <input class="txtsname" type="text" id="txtsname">
+    </div>
+    <div class="sec-11">
+        <label class="qname" for="Qualification">Qualification:</label>
+        <input class="txtqname" type="text" id="txtqname">
+    </div>
+    <div class="sec-12">
+        <div class="side">
+            <label class="spname" for="Specilization">Specilization:</label>
+        </div>
+        <div class="checkbox">
+            <input class="txtcs" id="txtcs" type="checkbox" value="">Computer Science<br>
+        <input class="intxt" type="checkbox" value="">Information Technology<br>
+        <input class="catxt" type="checkbox" value="">Computer Architacture <br>
+        <input class="tctxt" type="checkbox" value="">Tele Communication
+        </div>
+        
+    </div>
+</div>
+</div>
+<div class="sec-13">
+    <label class="psname" for="Password">Password:</label>
+    <input class="txtps" type="text" name="text" id="txtps">
+</div>
+<div class="sec-14">
+    <button>Registered</button>
+</div>
+        
+        
+        
+    
+    
+
+
+        
+
+        
+</fieldset>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Register Form</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    body{
+        display: flex;
+        align-items: center;
+        background-color: gainsboro;
+        justify-items: center;
+        
+    }
+    h1{
+        color: red;
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+        padding: 20px;
+        border-bottom: 1px solid silver;
+    } 
+    .contain{
+        display: flex;
+        justify-content: center;
+    }
+    .input-box{
+        display: flex;
+        justify-content: center;
+        font-size: 26px;
+    }
+    button{
+        background-color:green ;
+        color: white;
+        background-size: 50px;
+        color: white;
+    }
+
+        
+
+
+
+
+        
+
+        
+         
+ 
+</style>
+
+<body>
+    <div class="container"></div>
+    <div class="contain"></div>
+    <h1>Student Register Form</h1>
+    <form action="" method="post">
+        <div class="input-box"></div>
+        <div><label for="FirstName">FirstName:</label>
+            <input type="text" placeholder="Enter your First name" align=></div>
+            <div class="input-box"></div>
+        <div><label for="Last Name">Last Name:</label>
+            <input type="text" name="" id="" placeholder="Enter your last name" align="right"></div>
+            <div class="input-box"></div>
+        <div><label for="Email">Email:</label>
+            <input type="email" placeholder="it shuuld contain @..." align="right"></div>
+            <div class="input-box"></div>
+        <div><label for="Mobile:">Mobile:</label>
+            <input type="tel" placeholder="Only 10 digit are allowed" size="50px"></div>
+            <div class="input-box"></div>
+        <div><label for="Gender">Gender:</label></div>
+        <div>
+            Male<input type="radio" name="Male">
+            Female<input type="radio" name="Female">
+        </div>
+        <div class="input-box"></div>
+        <div><label for="Date Of Birth">Date Of Birth:</label>
+              <input type="date" size=""></div>
+              <div class="input-box"></div>
+        <div><label for="Address">Address:</label>
+            <textarea name="" ></textarea></div>
+            <div class="input-box"></div>
+        <div><label for=" City">City:</label>
+                <input type="text" size=""></div>
+                <div class="input-box"></div>
+        <div><label for="Area Pin">Area Pin:</label>
+                <input type="number" size=""></div>
+                <div class="input-box"></div>
+        <div><label for="State">State:</label>
+                <input type="text" size=""></div>
+                <div class="input-box"></div>
+        <div><label for="Qualification">Qualification:</label>
+                <input type="text" size=""></div>
+                <div class="input-box"></div>
+        <div><label for="Specilization">Specilization:</label></div>
+            <div>
+
+                <input type="checkbox" value="">Computer Science<br>
+                <input type="checkbox" value="">Information Tecnology<br>
+                <input type="checkbox" value="">Computer Architacture<br>
+                <input type="checkbox" value="">Tele Communication
+                
+            </div>
+            <div class="input-box"></div>
+            <div><label for="Password">Password:</label>
+                <input type="password">
+                 
+            </div>
+        
+            <div class="button-container"></div>
+                <button>Registered</button>
+
+            </div>
+        </form>
+    
+</body>
+
+</html> -->
